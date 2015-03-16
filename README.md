@@ -1,2 +1,6 @@
-# levelfs
+# SYNOPSIS
 a FUSE fs for leveldb
+
+# USAGE
+
+# CONFIGURATION
