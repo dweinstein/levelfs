@@ -3,5 +3,5 @@
 
 var argv = require('minimist')(process.argv.slice(2));
 
-var mount = require('../index')({path: argv._[0] || './mnt'});
+var levelfs = require('..')();
 

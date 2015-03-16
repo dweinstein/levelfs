@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var db = require('../lib/db');
+
+db.batch([
+  {key: 'foo', value: 'bar', type: 'put'},
+  {key: 'baz', value: 'blah', type: 'put'}
+], function (err, res) {
+  console.log(err?err:res);
+});
+

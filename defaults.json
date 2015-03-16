@@ -1,3 +1,8 @@
 {
-  "mount": "./mnt"
+  "path": "./mnt",
+  "db": "./db",
+  "level": {
+    "valueEncoding": "utf-8",
+    "keyEncoding": "utf-8"
+  }
 }
