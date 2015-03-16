@@ -1,0 +1,35 @@
+{
+  "name": "levelfs",
+  "version": "0.0.1",
+  "description": "a FUSE filesystem for leveldb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dweinstein/levelfs.git"
+  },
+  "keywords": [
+    "level",
+    "levelup",
+    "leveldb",
+    "nosql",
+    "fs",
+    "filesystem",
+    "fuse",
+    "osxfuse"
+  ],
+  "author": "dweinstein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dweinstein/levelfs/issues"
+  },
+  "homepage": "https://github.com/dweinstein/levelfs",
+  "dependencies": {
+    "fuse-bindings": "^1.0.0",
+    "level": "^0.18.0",
+    "minimist": "^1.1.1",
+    "rc": "^0.6.0"
+  }
+}
